@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#title {
+		text-align: center;
+		font-weight: bold;
+		font-size: x-large;
+	}
+	table {
+		margin : 0 auto;
+	}
+	.tableHead {
+		background-color: yellow;
+		width: 200px;
+	}
+	.tableBody {
+		width: 500px;
+	}
+	#buttons {
+		width: 100%;
+	}
+	.centerForTd {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+</style>
+</head>
+<body>
+	<div id="title">상세보기 페이지</div>
+	<br>
+	<form>
+		<table>
+			<tr>
+				<td class="tableHead">제목</td>
+				<td class="tableBody">(제목이 들어갈 자리)</td>
+			</tr>
+			<tr>
+				<td class="tableHead">글쓴이</td>
+				<td>(글쓴이가 들어갈 자리)</td>
+			</tr>
+			<tr>
+				<td class="tableHead">올린날짜</td>
+				<td>(날짜가 들어갈 자리)</td>
+			</tr>
+			<tr>
+				<td class="tableHead">조회수</td>
+				<td>(조회수가 들어갈 자리)</td>
+			</tr>
+			<tr>
+				<td class="tableHead">내용</td>
+				<td><textarea rows="10" cols="60">내용이 들어가면 됩니다.</textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="centerForTd">
+					<input type="submit" value="등록" class="center">&nbsp;
+					<input type="reset" value="지우기" class="center">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
